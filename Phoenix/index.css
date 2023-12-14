@@ -1,0 +1,325 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: orange;
+    width: 10px;
+}
+
+.navbar-navi {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    height: 43px;
+}
+
+.nested-navi {
+    color: white;
+    background-color: orange;
+    height: 43px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.logo-container {
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 1%;
+    text-shadow: 1px 1px 3px grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#home {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    cursor: context-menu;
+}
+
+.anchor-div {
+    text-align: center;
+    margin: 10px 20px 10px 0px;
+}
+
+.anchor-div a {
+    color: rgb(3, 2, 71);
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 6px 10px;
+
+}
+
+.anchor-div a:hover {
+    background-color: white;
+    border-radius: 20px;
+    color: orange;
+
+}
+
+.btn {
+    background-color: transparent;
+    color: orange;
+    border-radius: 6px;
+    border: 2px solid orange;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: 600;
+    transition: 0.3s;
+
+}
+
+.btn:hover {
+    background-color: orange;
+    color: white;
+}
+
+.items-container {
+    margin: 40px 10px;
+    background-color: rgb(243, 242, 242);
+    padding: 40px 0px;
+}
+
+.exploremenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    gap: 2px;
+    flex-wrap: wrap;
+
+
+}
+
+.order-imgs {
+    width: 88%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.explore-container {
+    width: 16%;
+    padding: 10px 2px;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px rgb(51, 51, 51);
+    transition: 0.3s;
+    background-color: white;
+
+
+}
+
+.explore-container:hover {
+    box-shadow: 0px 0px 1px 1px rgb(7, 7, 7);
+    transform: scale(1.06);
+
+}
+
+
+
+.bg-container {
+    padding-top: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bglogo.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    object-fit: cover;
+    height: 520px;
+
+
+}
+
+.learn-more {
+    width: 130px;
+    height: 40px;
+    background-color: transparent;
+    color: orange;
+    border-radius: 10px;
+    border: 2px solid orange;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.order {
+    width: 130px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border-radius: 6px;
+    margin-top: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid orange;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.learn-more:hover {
+    background-color: orange;
+    color: white;
+
+}
+
+.order:hover {
+    background-color: transparent;
+    color: orange;
+    border: 2px solid orange;
+}
+
+
+.more-items {
+    width: 140px;
+    height: 40px;
+    color: white;
+    background-color: orangered;
+    font-size: 1.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.more-items:hover {
+    transform: scale(1.06);
+}
+
+.about-us {
+    background-color: rgb(252, 221, 145);
+    padding-top: 20px;
+    padding-left: 15%;
+    height: 220px;
+    width: 75%;
+    margin: auto;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.about-us p {
+    font-size: 18px;
+
+
+}
+
+.about-us img {
+    height: 260px;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Refer and Earn */
+.body-refer-earn {
+    background-color: rgb(243, 242, 242);
+    margin: 40px 10px;
+    padding: 50px 10px;
+}
+
+.refer-earn {
+    background-color: rgb(252, 221, 145);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 5%;
+    height: 230px;
+    width: 60%;
+    margin: auto;
+    position: relative;
+
+}
+
+#refer-p {
+    color: orangered;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.refer-earn p {
+    color: rgb(4, 4, 78);
+    font-weight: 600;
+}
+
+.gift-box {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+#box-1 {
+    right: 250px;
+    top: -60px;
+
+}
+
+#box-2 {
+    right: 160px;
+    top: -20px;
+}
+
+#box-3 {
+    right: 140px;
+    top: 72px;
+    transform: rotate(-66deg);
+}
+
+/* About page*/
+#about-about {
+    height: 330px;
+    margin-top: 30px;
+    background-color: rgb(15, 15, 17);
+
+}
+
+#footer {
+    width: 80%;
+    height: 250px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.About-headings {
+    width: 20%;
+    height: 100%;
+    text-align: left;
+    padding: 40px;
+}
+
+.About-headings a {
+    text-decoration: none;
+    color: white;
+}
+
+.About-headings a:hover {
+    text-decoration: underline;
+}
+
+.About-headings a:hover {
+    color: orange;
+}

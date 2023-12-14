@@ -1,0 +1,115 @@
+body {
+    background-image: url("signin_bg.avif"), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.navbar-navi{
+    position:fixed;
+    width:100%;
+    background-color: white;
+    z-index:1;
+    height: 43px;
+}
+.nested-navi{
+    color:white;
+    background-color:orange;
+    height:43px;
+    margin-bottom:10px;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:10px;
+    padding:10px;
+    align-items: center;
+}
+.logo-container{
+    width:40%;
+    height:50px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left:1%;
+    text-shadow:1px 1px 3px grey;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form-container{
+    width:300px;
+    padding:30px;
+    text-align:center;
+    font-weight: 600;
+}
+.input-txt-f{
+    width:230px;
+    height:35px;
+    border-radius:6px;
+    border:none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+}
+
+
+.form-container input::placeholder{
+    color:rgb(94, 92, 92);
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+    
+}
+.submit-btn {
+    width: 130px;
+    height: 40px;
+    background-color: orange;
+    color: black;
+    border: 3px solid orange;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px black;
+    transition: 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: orange;
+    
+    cursor: pointer;
+    transform: scale(1.06);
+    
+}
+
+.sign-in-div-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    width: 53%;
+    margin-left: 20%;
+
+}
+
+.sign-in-left {
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("icecream_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(30px);
+    color: white;
+    box-shadow: 2px 2px 6px white;
+
+}
+
+.sign-in-left div {
+    margin-top: 200px;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    padding: 10px;
+}
